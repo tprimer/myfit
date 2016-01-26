@@ -238,7 +238,7 @@ class Fit3:
         nexp = self.nexp
         noxp = self.noxp
         prior_file = open(self.priorfile,'r')
-        pp = yaml.load(prior_file)
+        pp = yaml.load(prior_file) #
         
         prior['Vnn'] = [[ gvar(pp['v22'][0],pp['v22'][1]) for i in range(nexp)] for j in range(nexp)]
         prior['Vno'] = [[ gvar(pp['v22'][0],pp['v22'][1]) for i in range(nexp)] for j in range(nexp)]
