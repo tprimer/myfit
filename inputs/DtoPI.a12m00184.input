@@ -1,0 +1,39 @@
+datafile:		/home/tprimer/DATA/KPI/a12m00184/a12m00184b1.dat
+NT:				64
+Text:			[15,18,20,21,22]
+ncon:			ncon
+tmin:			tmin
+tmax
+PI0MAX
+PIMAX
+DMAX
+bin
+nexp
+noexp
+ncon
+ntext
+jack
+T1
+T2
+T3
+T4
+T5
+0.0018599
+0.05314
+0.6269
+pi0
+pi0_err
+4.97936
+4.64332
+48
+FITT
+PRY
+###
+0.0815020
+0.0000541
+###
+15
+18
+20
+21
+22

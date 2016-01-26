@@ -1,0 +1,120 @@
+2ptpimom2-0: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 2}
+2ptpimom2-1: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 2}
+2ptpimom2-2: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 2}
+2ptpimom2-3: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 2}
+2ptpimom2-4: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 4}
+2ptpimom2-5: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 4}
+2ptpimom2-6: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 4}
+2ptpimom2-7: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 4}
+2ptpimom2-8: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 6}
+2ptpimom2-9: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 6}
+2ptpimom2-10: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 6}
+2ptpimom2-11: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 6}
+2ptpimom2-12: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 8}
+2ptpimom2-13: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 8}
+2ptpimom2-14: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 8}
+2ptpimom2-15: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 8}
+2ptpimom2-16: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 10}
+2ptpimom2-17: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 10}
+2ptpimom2-18: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 10}
+2ptpimom2-19: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 15,
+  tmin: 10}
+2ptpimom2-20: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 2}
+2ptpimom2-21: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 2}
+2ptpimom2-22: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 2}
+2ptpimom2-23: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 2}
+2ptpimom2-24: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 4}
+2ptpimom2-25: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 4}
+2ptpimom2-26: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 4}
+2ptpimom2-27: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 4}
+2ptpimom2-28: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 6}
+2ptpimom2-29: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 6}
+2ptpimom2-30: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 6}
+2ptpimom2-31: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 6}
+2ptpimom2-32: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 8}
+2ptpimom2-33: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 8}
+2ptpimom2-34: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 8}
+2ptpimom2-35: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 8}
+2ptpimom2-36: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 10}
+2ptpimom2-37: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 10}
+2ptpimom2-38: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 10}
+2ptpimom2-39: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 17,
+  tmin: 10}
+2ptpimom2-40: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 2}
+2ptpimom2-41: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 2}
+2ptpimom2-42: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 2}
+2ptpimom2-43: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 2}
+2ptpimom2-44: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 4}
+2ptpimom2-45: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 4}
+2ptpimom2-46: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 4}
+2ptpimom2-47: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 4}
+2ptpimom2-48: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 6}
+2ptpimom2-49: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 6}
+2ptpimom2-50: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 6}
+2ptpimom2-51: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 6}
+2ptpimom2-52: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 8}
+2ptpimom2-53: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 8}
+2ptpimom2-54: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 8}
+2ptpimom2-55: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 8}
+2ptpimom2-56: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 10}
+2ptpimom2-57: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 10}
+2ptpimom2-58: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 10}
+2ptpimom2-59: {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 19,
+  tmin: 10}

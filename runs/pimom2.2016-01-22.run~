@@ -1,0 +1,6 @@
+2ptpimom20: {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 30,
+  tmin: 4}
+2ptpimom21: {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 30,
+  tmin: 4}
+2ptpimom22: {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 30,
+  tmin: 4}

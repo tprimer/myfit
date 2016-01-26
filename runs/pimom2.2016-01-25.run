@@ -1,0 +1,25 @@
+'0': {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 15, tmin: 2,
+  type: 2pt}
+'1': {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 15, tmin: 2,
+  type: 2pt}
+'2': {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 15, tmin: 2,
+  type: 2pt}
+'3': {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 15, tmin: 2,
+  type: 2pt}
+'4': {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 15, tmin: 4,
+  type: 2pt}
+'5': {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 15, tmin: 4,
+  type: 2pt}
+'6': {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 15, tmin: 4,
+  type: 2pt}
+'7': {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 15, tmin: 4,
+  type: 2pt}
+'8': {name: pimom2, nexp: 1, noxp: 1, priorfile: priors/pimom2.prior, tmax: 15, tmin: 6,
+  type: 2pt}
+'9': {name: pimom2, nexp: 2, noxp: 2, priorfile: priors/pimom2.prior, tmax: 15, tmin: 6,
+  type: 2pt}
+'10': {name: pimom2, nexp: 3, noxp: 3, priorfile: priors/pimom2.prior, tmax: 15, tmin: 6,
+  type: 2pt}
+'11': {name: pimom2, nexp: 4, noxp: 4, priorfile: priors/pimom2.prior, tmax: 15, tmin: 6,
+  type: 2pt}
+fits: 12

@@ -1,0 +1,73 @@
+'0': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 2, type: 2pt}
+'1': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 2, type: 2pt}
+'2': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 2, type: 2pt}
+'3': {name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 2, type: 2pt}
+'4': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 4, type: 2pt}
+'5': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 4, type: 2pt}
+'6': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 4, type: 2pt}
+'7': {name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 4, type: 2pt}
+'8': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 6, type: 2pt}
+'9': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 6, type: 2pt}
+'10': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 6, type: 2pt}
+'11': {name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 20, tmin: 6, type: 2pt}
+'12': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 2, type: 2pt}
+'13': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 2, type: 2pt}
+'14': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 2, type: 2pt}
+'15': {name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 2, type: 2pt}
+'16': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 4, type: 2pt}
+'17': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 4, type: 2pt}
+'18': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 4, type: 2pt}
+'19': {name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 4, type: 2pt}
+'20': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 6, type: 2pt}
+'21': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 6, type: 2pt}
+'22': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 6, type: 2pt}
+'23': {name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 25, tmin: 6, type: 2pt}
+'24': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 2, type: 2pt}
+'25': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 2, type: 2pt}
+'26': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 2, type: 2pt}
+'27': {name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 2, type: 2pt}
+'28': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'29': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'30': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'31': {name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'32': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'33': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'34': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'35': {name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+fits: 36
