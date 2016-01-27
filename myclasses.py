@@ -2,9 +2,10 @@
 # encoding: utf-8
 
 from corrfitter import Corr2, CorrFitter, fastfit, Corr3
-from gvar import gvar, log, exp, BufferDict, fmt_errorbudget, fmt
+from gvar import gvar, log, exp, sqrt, BufferDict, fmt_errorbudget, fmt
 from gvar.dataset import Dataset, avg_data, bin_data
 from pvalue import conf_int
+import numpy as np
 import yaml
 
 class Ensemble:
@@ -40,6 +41,7 @@ class Fit2:
         self.priorfile = dic['priorfile']
         self.p0file = dic['p0file']
         self.savep0 = dic['savep0']
+        self.type = dic['type']
         name = self.name
         if name == 'pimom0':
             self.a=(name+':a')
@@ -109,10 +111,12 @@ class Fit2:
 
         ofile = open(outfile,'a')
 
-        if self.chi2/self.dof > 99:
-            chi2dof = 99.9
-        else:
+        if self.dof > 0:
             chi2dof = self.chi2/self.dof
+        else:
+            chi2dof = 99.9
+        if chi2dof > 99:
+            chi2dof = 99.9
 
         form = "{:s} & {:2d} - {:2d} & {:d}+{:d} & {:4.1f} & {:3d} & {:4.2f} & {:<11s} & {:<11s} \n"
         ofile.write( form.format( self.name,self.tmin,self.tmax,self.nexp,self.noxp,chi2dof,self.dof,self.Q,
@@ -184,7 +188,7 @@ class Fit2:
         pth = self.results.p
         p = self.prior
         aug = 0
-        for key in pth.keys():
+        for key in p.keys():
             for exp in range(self.nexp):
                 aug = aug + ( (p[key][exp].mean-pth[key][exp].mean)/p[key][exp].sdev )**2
         self.aug = aug
@@ -194,40 +198,44 @@ class Fit2:
 
 class Fit3:
     
-    def __init__(self, dic, childfit, parentfit):
+    def __init__(self, dic, params, childfit, parentfit):
         self.name = dic['name']
         self.Texts = dic['Text']
+        self.child_index = dic['child_index']
+        self.parent_index = dic['parent_index']
         self.include2ptdata = dic['include2ptdata']
+        self.priorfile = dic['priorfile']
         self.child = childfit
         self.parent = parentfit
         self.tmin = childfit.tmin
         self.tmax = parentfit.tmin
-        self.priorfile = dic['priorfile']
         if childfit.name == 'pimom0':
-            Von=None
-            Voo=None
+            self.Von=None
+            self.Voo=None
         else:
-            Von='Von'
-            Voo='Voo'
-        Vnn='Vnn'
-        Vno='Vno'
-        self.model = self.build_model(params)
+            self.Von='Von'
+            self.Voo='Voo'
+        self.Vnn='Vnn'
+        self.Vno='Vno'
+        self.model = self.build_3pt_models(params)
         self.fitter = CorrFitter(self.model)
-        self.prior = self.child.prior + self.parent.prior + self.build_prior(params)
+        self.prior =  self.build_prior(params)
+        self.prior.update( self.child.prior )
+        self.prior.update( self.parent.prior )
 
             
 
     def build_3pt_models(self,params):
         models_3pt = []
-        for T in Texts:
-            models_3pt.append( Corr3( datatag='3pt'+self.name+str(T),tdata=range(T+1),
-                                      tfit=range(self.tmin,T-self.tmax),
+        for T in self.Texts:
+            models_3pt.append( Corr3( datatag="3pt"+self.name+"T"+str(T),T=T,tdata=range(T+1),
+                                      tfit=range(self.tmin,T-self.tmax+1),
                                       a=self.child.a,dEa=self.child.dE,sa=(1.,-1.),
                                       b=self.parent.a,dEb=self.parent.dE,sb=(1.,-1.),
                                       Vnn=self.Vnn,Vno=self.Vno,Von=self.Von,Voo=self.Voo) )
         if self.include2ptdata:
-            models_3pt.append( child.build_model(params) )
-            models_3pt.append( parent.build_model(params) ) 
+            models_3pt.append( self.child.build_model(params) )
+            models_3pt.append( self.parent.build_model(params) ) 
 
         return models_3pt
         
@@ -235,8 +243,8 @@ class Fit3:
         """build interaction matrix prior"""
         prior = BufferDict()
         
-        nexp = self.nexp
-        noxp = self.noxp
+        nexp = self.child.nexp
+        noxp = self.child.noxp
         prior_file = open(self.priorfile,'r')
         pp = yaml.load(prior_file)
         
@@ -265,3 +273,120 @@ class Fit3:
                         
         return prior
                     
+    def print_fit(self,par,outfile):
+        """print the energy and amplitude results from a fit"""
+        fit = self.results
+        name = self.name
+        p = fit.p
+        self.chi2_cal()
+        #self.chi2_aug_part()
+        self.Q = conf_int(self.chi2/2, par.ncon, self.dof/2)
+        nexp = self.child.nexp
+
+        name = self.child.name
+        CdE = exp(p['log('+name+':dE)'])
+        CE = [sum(CdE[:i+1]) for i in range(nexp)]
+        a = exp(p['log('+name+':a)'])
+        if self.name != 'pimom0':
+            CdEo = exp(p['log('+name+':dEo)'])
+            CEo = [sum(CdEo[:i+1]) for i in range(nexp)]
+            ao = exp(p['log('+name+':ao)'])
+
+        name = self.parent.name
+        PdE = exp(p['log('+name+':dE)'])
+        PE = [sum(PdE[:i+1]) for i in range(nexp)]
+        b = exp(p['log('+name+':a)'])
+        if self.name != 'pimom0':
+            PdEo = exp(p['log('+name+':dEo)'])
+            PEo = [sum(PdEo[:i+1]) for i in range(nexp)]
+            bo = exp(p['log('+name+':ao)'])
+
+        # calculating f_0
+        # DOESN"T WORK FOR D TO K YET!!!!!!!!!
+        if self.child.name == 'pimom0':
+            mpi = CE[0]
+        else:
+            mpi = gvar(par.pi0,par.pi0_err)
+        if self.child.name == 'pimom0' or self.child.name == 'pimom2':
+            m_q = par.m_l
+        else:
+            m_q = par.m_s
+        Epi = CE[0]
+        mD = PE[0]
+        v = p['Vnn'][0][0]
+        f_0 = v*sqrt(Epi*mD)*(par.m_c-m_q)/(mD**2-mpi**2)
+        qsq = mpi**2+mD**2-2*mD*Epi        
+
+        ofile = open(outfile,'a')
+
+        if self.dof != 0:
+            chi2dof = self.chi2/self.dof
+        else:
+            chi2dof = 99.9
+        if chi2dof > 99:
+            chi2dof = 99.9
+
+        pars = "{:s} & {:2d}-{:2d} & {:2d}-{:2d} & {:d}+{:d} & {:4.1f} & {:3d} & {:4.2f} & "
+        energies = "{:s} & {:<11s} & {:<11s} & "
+        form = "{:<12s} & {:<12s} \\\\ \n"
+        ofile.write( pars.format( self.name,self.tmin,self.child.tmax,self.tmax,self.parent.tmax,
+                                  nexp,nexp,chi2dof,self.dof,self.Q )
+                     +energies.format( self.child.name,CE[0].fmt(ndecimal=4),a[0].fmt(ndecimal=4) )
+                     +energies.format( self.parent.name,PE[0].fmt(ndecimal=4),b[0].fmt(ndecimal=4) )
+                     +form.format( f_0.fmt(ndecimal=4), qsq.fmt(ndecimal=4) ) )
+
+    def print_model(self,par,outfile):
+        """print the fit data and model and the difference"""
+        fit = self.results
+        names = ["2pt"+self.child.name,"2pt"+self.parent.name,["3pt"+self.name+"T"+T for T in self.Text]]
+        t,g,dg,gth,dgth = self.fitter.collect_fitresults()['3pt'+self.name]
+        ofile = open(outfile,'a')
+        ofile.write( "   t | model                value                | sigma_m sigma_v \n" )
+        for it in range(0,self.tmax-self.tmin):
+            data = gvar(g[it],dg[it])
+            model = gvar(gth[it],dgth[it])
+            diff1 = (data.mean-model.mean)/data.sdev
+            diff2 = (data.mean-model.mean)/model.sdev
+            ofile.write( " {:3d} | {:<20s} {:<20s} | {:+5.3f}  {:+5.3f} \n".format(
+                    t[it],data.fmt(),model.fmt(),diff1,diff2) )
+
+    def chi2_cal(self):
+        """calculate chi2 of fit"""
+
+        chi2 = 0.
+        points = 0
+        for fit in (self.child,self.parent):
+            t,g,dg,gth,dgth = self.fitter.collect_fitresults()["2pt"+fit.name]
+            for it in range(0,fit.tmax-fit.tmin):
+                chi2 = ( (g[it]-gth[it])/dg )**2
+            total2pt = sum(chi2)
+            points = points + len(g)
+        for T in self.Texts:
+            t,g,dg,gth,dgth = self.fitter.collect_fitresults()["3pt"+self.name+"T"+str(T)]
+            for it in range(0,T-fit.tmax-fit.tmin):
+                chi2 = ( (g[it]-gth[it])/dg )**2
+            total3pt = sum(chi2)
+            points = points + len(g)
+            
+        parameters = 0
+        for key in self.prior.keys():
+            parameters = parameters + len(self.results.p[key])
+        self.dof = points-parameters
+        self.chi2 = total2pt+total3pt
+        return self.chi2,self.dof
+
+    def chi2_aug_part(self):
+        """calculate the part of the chi2 coming from the priors"""
+        ####### NOT WORKING ATM #####
+        pth = self.results.p
+        p = self.prior
+        aug = 0
+        print(pth.values())
+        qth = np.fromiter(pth.values(),np.float)
+        q = np.fromiter(p.values(),np.float)
+        print(qth)
+        print(q)
+        for exp in range(self.nexp):
+            aug = aug + ( (p[key][exp].mean-pth[key][exp].mean)/p[key][exp].sdev )**2
+        self.aug = aug
+        return aug
