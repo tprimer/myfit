@@ -1,0 +1,12 @@
+datafile:     ./corrdata/a12m00507_smallb1.dat
+NT:           64
+NX:           24
+m_l:          0.0053
+m_s:          0.053
+m_c:          0.65
+Text:         [15,18,20,21,22]
+ncon:         1018
+pi2twist:     2.53963
+k2twist:      2.38696
+pi0:          0.13413
+pi0_err:      0.000066

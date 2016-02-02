@@ -1,0 +1,13 @@
+'0': {name: pimom2, nexp: 3, noxp: 3, p0file: null, priorfile: priors/pimom2.prior,
+  savep0: p0file.tmp, tmax: 15, tmin: 6, type: 2pt}
+'1': {name: Dmom0, nexp: 3, noxp: 3, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'2':
+  Text: !!python/tuple [15, 18]
+  child_index: 1
+  include2ptdata: true
+  name: DP
+  parent_index: 0
+  priorfile: priors/DP.prior
+  type: 3pt
+fits: 3

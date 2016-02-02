@@ -1,0 +1,25 @@
+'0': {dofit: false, name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'1': {dofit: false, name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'2': {dofit: false, name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'3': {dofit: false, name: pimom2, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'4': {dofit: false, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'5': {dofit: false, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'6': {dofit: false, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'7': {dofit: false, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'8':
+  Text: !!python/tuple [31, 39, 40]
+  child_index: 3
+  include2ptdata: true
+  name: DP
+  parent_index: 7
+  priorfile: priors/DP.prior
+  type: 3pt
+fits: 9

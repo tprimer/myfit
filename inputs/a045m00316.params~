@@ -1,0 +1,12 @@
+datafile:     ./corrdata/a06m0008b1.dat
+NT:           192
+NX:           96
+m_l:          0.0008
+m_s:          0.022
+m_c:          0.26
+Text:         [31,39,40,48,49]
+ncon:         431
+pi2twist:     4.74315
+k2twist:      4.43575
+pi0:          0.06733
+pi0_err:      0.00008

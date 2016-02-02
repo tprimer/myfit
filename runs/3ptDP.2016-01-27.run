@@ -1,0 +1,57 @@
+'0': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/pimom2.prior,
+  savep0: p0file.tmp, tmax: 15, tmin: 4, type: 2pt}
+'1': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/pimom2.prior,
+  savep0: p0file.tmp, tmax: 15, tmin: 4, type: 2pt}
+'2': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/pimom2.prior,
+  savep0: p0file.tmp, tmax: 15, tmin: 4, type: 2pt}
+'3': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/pimom2.prior,
+  savep0: p0file.tmp, tmax: 15, tmin: 6, type: 2pt}
+'4': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/pimom2.prior,
+  savep0: p0file.tmp, tmax: 15, tmin: 6, type: 2pt}
+'5': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/pimom2.prior,
+  savep0: p0file.tmp, tmax: 15, tmin: 6, type: 2pt}
+'6': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'7': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'8': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'9': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'10': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'11': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'12':
+  Text: !!python/tuple [15, 18, 20, 21, 22]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 8
+  priorfile: priors/DP.prior
+  type: 3pt
+'13':
+  Text: !!python/tuple [15, 18, 20, 21, 22]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 11
+  priorfile: priors/DP.prior
+  type: 3pt
+'14':
+  Text: !!python/tuple [15, 18, 20, 21, 22]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 8
+  priorfile: priors/DP.prior
+  type: 3pt
+'15':
+  Text: !!python/tuple [15, 18, 20, 21, 22]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 11
+  priorfile: priors/DP.prior
+  type: 3pt
+fits: 16

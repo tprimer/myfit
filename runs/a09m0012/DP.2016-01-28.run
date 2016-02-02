@@ -1,0 +1,757 @@
+'0': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 27, tmin: 4, type: 2pt}
+'1': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 27, tmin: 4, type: 2pt}
+'2': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 27, tmin: 4, type: 2pt}
+'3': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 27, tmin: 6, type: 2pt}
+'4': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 27, tmin: 6, type: 2pt}
+'5': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 27, tmin: 6, type: 2pt}
+'6': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 27, tmin: 8, type: 2pt}
+'7': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 27, tmin: 8, type: 2pt}
+'8': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 27, tmin: 8, type: 2pt}
+'9': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'10': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'11': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'12': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'13': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'14': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'15': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'16': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'17': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'18': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 32, tmin: 4, type: 2pt}
+'19': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 32, tmin: 4, type: 2pt}
+'20': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 32, tmin: 4, type: 2pt}
+'21': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 32, tmin: 6, type: 2pt}
+'22': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 32, tmin: 6, type: 2pt}
+'23': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 32, tmin: 6, type: 2pt}
+'24': {name: pimom2, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 32, tmin: 8, type: 2pt}
+'25': {name: pimom2, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 32, tmin: 8, type: 2pt}
+'26': {name: pimom2, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/pimom2.prior,
+  savep0: p0file.tmp, tmax: 32, tmin: 8, type: 2pt}
+'27': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 26, tmin: 4, type: 2pt}
+'28': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 26, tmin: 4, type: 2pt}
+'29': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 26, tmin: 4, type: 2pt}
+'30': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 26, tmin: 6, type: 2pt}
+'31': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 26, tmin: 6, type: 2pt}
+'32': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 26, tmin: 6, type: 2pt}
+'33': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 26, tmin: 8, type: 2pt}
+'34': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 26, tmin: 8, type: 2pt}
+'35': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 26, tmin: 8, type: 2pt}
+'36': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'37': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'38': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'39': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'40': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'41': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'42': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'43': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'44': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'45': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 4, type: 2pt}
+'46': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 4, type: 2pt}
+'47': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 4, type: 2pt}
+'48': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'49': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'50': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'51': {name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 8, type: 2pt}
+'52': {name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 8, type: 2pt}
+'53': {name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a09m0012/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 8, type: 2pt}
+'54':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 29
+  priorfile: priors/DP.prior
+  type: 3pt
+'55':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 32
+  priorfile: priors/DP.prior
+  type: 3pt
+'56':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 35
+  priorfile: priors/DP.prior
+  type: 3pt
+'57':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 38
+  priorfile: priors/DP.prior
+  type: 3pt
+'58':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 41
+  priorfile: priors/DP.prior
+  type: 3pt
+'59':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 44
+  priorfile: priors/DP.prior
+  type: 3pt
+'60':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 47
+  priorfile: priors/DP.prior
+  type: 3pt
+'61':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 50
+  priorfile: priors/DP.prior
+  type: 3pt
+'62':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 2
+  include2ptdata: true
+  name: DP
+  parent_index: 53
+  priorfile: priors/DP.prior
+  type: 3pt
+'63':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 29
+  priorfile: priors/DP.prior
+  type: 3pt
+'64':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 32
+  priorfile: priors/DP.prior
+  type: 3pt
+'65':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 35
+  priorfile: priors/DP.prior
+  type: 3pt
+'66':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 38
+  priorfile: priors/DP.prior
+  type: 3pt
+'67':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 41
+  priorfile: priors/DP.prior
+  type: 3pt
+'68':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 44
+  priorfile: priors/DP.prior
+  type: 3pt
+'69':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 47
+  priorfile: priors/DP.prior
+  type: 3pt
+'70':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 50
+  priorfile: priors/DP.prior
+  type: 3pt
+'71':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 5
+  include2ptdata: true
+  name: DP
+  parent_index: 53
+  priorfile: priors/DP.prior
+  type: 3pt
+'72':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 8
+  include2ptdata: true
+  name: DP
+  parent_index: 29
+  priorfile: priors/DP.prior
+  type: 3pt
+'73':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 8
+  include2ptdata: true
+  name: DP
+  parent_index: 32
+  priorfile: priors/DP.prior
+  type: 3pt
+'74':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 8
+  include2ptdata: true
+  name: DP
+  parent_index: 35
+  priorfile: priors/DP.prior
+  type: 3pt
+'75':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 8
+  include2ptdata: true
+  name: DP
+  parent_index: 38
+  priorfile: priors/DP.prior
+  type: 3pt
+'76':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 8
+  include2ptdata: true
+  name: DP
+  parent_index: 41
+  priorfile: priors/DP.prior
+  type: 3pt
+'77':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 8
+  include2ptdata: true
+  name: DP
+  parent_index: 44
+  priorfile: priors/DP.prior
+  type: 3pt
+'78':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 8
+  include2ptdata: true
+  name: DP
+  parent_index: 47
+  priorfile: priors/DP.prior
+  type: 3pt
+'79':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 8
+  include2ptdata: true
+  name: DP
+  parent_index: 50
+  priorfile: priors/DP.prior
+  type: 3pt
+'80':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 8
+  include2ptdata: true
+  name: DP
+  parent_index: 53
+  priorfile: priors/DP.prior
+  type: 3pt
+'81':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 11
+  include2ptdata: true
+  name: DP
+  parent_index: 29
+  priorfile: priors/DP.prior
+  type: 3pt
+'82':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 11
+  include2ptdata: true
+  name: DP
+  parent_index: 32
+  priorfile: priors/DP.prior
+  type: 3pt
+'83':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 11
+  include2ptdata: true
+  name: DP
+  parent_index: 35
+  priorfile: priors/DP.prior
+  type: 3pt
+'84':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 11
+  include2ptdata: true
+  name: DP
+  parent_index: 38
+  priorfile: priors/DP.prior
+  type: 3pt
+'85':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 11
+  include2ptdata: true
+  name: DP
+  parent_index: 41
+  priorfile: priors/DP.prior
+  type: 3pt
+'86':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 11
+  include2ptdata: true
+  name: DP
+  parent_index: 44
+  priorfile: priors/DP.prior
+  type: 3pt
+'87':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 11
+  include2ptdata: true
+  name: DP
+  parent_index: 47
+  priorfile: priors/DP.prior
+  type: 3pt
+'88':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 11
+  include2ptdata: true
+  name: DP
+  parent_index: 50
+  priorfile: priors/DP.prior
+  type: 3pt
+'89':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 11
+  include2ptdata: true
+  name: DP
+  parent_index: 53
+  priorfile: priors/DP.prior
+  type: 3pt
+'90':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 14
+  include2ptdata: true
+  name: DP
+  parent_index: 29
+  priorfile: priors/DP.prior
+  type: 3pt
+'91':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 14
+  include2ptdata: true
+  name: DP
+  parent_index: 32
+  priorfile: priors/DP.prior
+  type: 3pt
+'92':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 14
+  include2ptdata: true
+  name: DP
+  parent_index: 35
+  priorfile: priors/DP.prior
+  type: 3pt
+'93':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 14
+  include2ptdata: true
+  name: DP
+  parent_index: 38
+  priorfile: priors/DP.prior
+  type: 3pt
+'94':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 14
+  include2ptdata: true
+  name: DP
+  parent_index: 41
+  priorfile: priors/DP.prior
+  type: 3pt
+'95':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 14
+  include2ptdata: true
+  name: DP
+  parent_index: 44
+  priorfile: priors/DP.prior
+  type: 3pt
+'96':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 14
+  include2ptdata: true
+  name: DP
+  parent_index: 47
+  priorfile: priors/DP.prior
+  type: 3pt
+'97':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 14
+  include2ptdata: true
+  name: DP
+  parent_index: 50
+  priorfile: priors/DP.prior
+  type: 3pt
+'98':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 14
+  include2ptdata: true
+  name: DP
+  parent_index: 53
+  priorfile: priors/DP.prior
+  type: 3pt
+'99':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 17
+  include2ptdata: true
+  name: DP
+  parent_index: 29
+  priorfile: priors/DP.prior
+  type: 3pt
+'100':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 17
+  include2ptdata: true
+  name: DP
+  parent_index: 32
+  priorfile: priors/DP.prior
+  type: 3pt
+'101':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 17
+  include2ptdata: true
+  name: DP
+  parent_index: 35
+  priorfile: priors/DP.prior
+  type: 3pt
+'102':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 17
+  include2ptdata: true
+  name: DP
+  parent_index: 38
+  priorfile: priors/DP.prior
+  type: 3pt
+'103':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 17
+  include2ptdata: true
+  name: DP
+  parent_index: 41
+  priorfile: priors/DP.prior
+  type: 3pt
+'104':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 17
+  include2ptdata: true
+  name: DP
+  parent_index: 44
+  priorfile: priors/DP.prior
+  type: 3pt
+'105':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 17
+  include2ptdata: true
+  name: DP
+  parent_index: 47
+  priorfile: priors/DP.prior
+  type: 3pt
+'106':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 17
+  include2ptdata: true
+  name: DP
+  parent_index: 50
+  priorfile: priors/DP.prior
+  type: 3pt
+'107':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 17
+  include2ptdata: true
+  name: DP
+  parent_index: 53
+  priorfile: priors/DP.prior
+  type: 3pt
+'108':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 20
+  include2ptdata: true
+  name: DP
+  parent_index: 29
+  priorfile: priors/DP.prior
+  type: 3pt
+'109':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 20
+  include2ptdata: true
+  name: DP
+  parent_index: 32
+  priorfile: priors/DP.prior
+  type: 3pt
+'110':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 20
+  include2ptdata: true
+  name: DP
+  parent_index: 35
+  priorfile: priors/DP.prior
+  type: 3pt
+'111':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 20
+  include2ptdata: true
+  name: DP
+  parent_index: 38
+  priorfile: priors/DP.prior
+  type: 3pt
+'112':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 20
+  include2ptdata: true
+  name: DP
+  parent_index: 41
+  priorfile: priors/DP.prior
+  type: 3pt
+'113':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 20
+  include2ptdata: true
+  name: DP
+  parent_index: 44
+  priorfile: priors/DP.prior
+  type: 3pt
+'114':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 20
+  include2ptdata: true
+  name: DP
+  parent_index: 47
+  priorfile: priors/DP.prior
+  type: 3pt
+'115':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 20
+  include2ptdata: true
+  name: DP
+  parent_index: 50
+  priorfile: priors/DP.prior
+  type: 3pt
+'116':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 20
+  include2ptdata: true
+  name: DP
+  parent_index: 53
+  priorfile: priors/DP.prior
+  type: 3pt
+'117':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 23
+  include2ptdata: true
+  name: DP
+  parent_index: 29
+  priorfile: priors/DP.prior
+  type: 3pt
+'118':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 23
+  include2ptdata: true
+  name: DP
+  parent_index: 32
+  priorfile: priors/DP.prior
+  type: 3pt
+'119':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 23
+  include2ptdata: true
+  name: DP
+  parent_index: 35
+  priorfile: priors/DP.prior
+  type: 3pt
+'120':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 23
+  include2ptdata: true
+  name: DP
+  parent_index: 38
+  priorfile: priors/DP.prior
+  type: 3pt
+'121':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 23
+  include2ptdata: true
+  name: DP
+  parent_index: 41
+  priorfile: priors/DP.prior
+  type: 3pt
+'122':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 23
+  include2ptdata: true
+  name: DP
+  parent_index: 44
+  priorfile: priors/DP.prior
+  type: 3pt
+'123':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 23
+  include2ptdata: true
+  name: DP
+  parent_index: 47
+  priorfile: priors/DP.prior
+  type: 3pt
+'124':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 23
+  include2ptdata: true
+  name: DP
+  parent_index: 50
+  priorfile: priors/DP.prior
+  type: 3pt
+'125':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 23
+  include2ptdata: true
+  name: DP
+  parent_index: 53
+  priorfile: priors/DP.prior
+  type: 3pt
+'126':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 26
+  include2ptdata: true
+  name: DP
+  parent_index: 29
+  priorfile: priors/DP.prior
+  type: 3pt
+'127':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 26
+  include2ptdata: true
+  name: DP
+  parent_index: 32
+  priorfile: priors/DP.prior
+  type: 3pt
+'128':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 26
+  include2ptdata: true
+  name: DP
+  parent_index: 35
+  priorfile: priors/DP.prior
+  type: 3pt
+'129':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 26
+  include2ptdata: true
+  name: DP
+  parent_index: 38
+  priorfile: priors/DP.prior
+  type: 3pt
+'130':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 26
+  include2ptdata: true
+  name: DP
+  parent_index: 41
+  priorfile: priors/DP.prior
+  type: 3pt
+'131':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 26
+  include2ptdata: true
+  name: DP
+  parent_index: 44
+  priorfile: priors/DP.prior
+  type: 3pt
+'132':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 26
+  include2ptdata: true
+  name: DP
+  parent_index: 47
+  priorfile: priors/DP.prior
+  type: 3pt
+'133':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 26
+  include2ptdata: true
+  name: DP
+  parent_index: 50
+  priorfile: priors/DP.prior
+  type: 3pt
+'134':
+  Text: !!python/tuple [23, 27, 32]
+  child_index: 26
+  include2ptdata: true
+  name: DP
+  parent_index: 53
+  priorfile: priors/DP.prior
+  type: 3pt
+fits: 135

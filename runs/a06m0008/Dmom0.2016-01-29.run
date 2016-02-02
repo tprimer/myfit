@@ -1,0 +1,225 @@
+'0': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 2, type: 2pt}
+'1': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 2, type: 2pt}
+'2': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 2, type: 2pt}
+'3': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 2, type: 2pt}
+'4': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 3, type: 2pt}
+'5': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 3, type: 2pt}
+'6': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 3, type: 2pt}
+'7': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 3, type: 2pt}
+'8': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 4, type: 2pt}
+'9': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 4, type: 2pt}
+'10': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 4, type: 2pt}
+'11': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 4, type: 2pt}
+'12': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 5, type: 2pt}
+'13': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 5, type: 2pt}
+'14': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 5, type: 2pt}
+'15': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 5, type: 2pt}
+'16': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 6, type: 2pt}
+'17': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 6, type: 2pt}
+'18': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 6, type: 2pt}
+'19': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 6, type: 2pt}
+'20': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 7, type: 2pt}
+'21': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 7, type: 2pt}
+'22': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 7, type: 2pt}
+'23': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 7, type: 2pt}
+'24': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 8, type: 2pt}
+'25': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 8, type: 2pt}
+'26': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 8, type: 2pt}
+'27': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 24, tmin: 8, type: 2pt}
+'28': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 2, type: 2pt}
+'29': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 2, type: 2pt}
+'30': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 2, type: 2pt}
+'31': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 2, type: 2pt}
+'32': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 3, type: 2pt}
+'33': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 3, type: 2pt}
+'34': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 3, type: 2pt}
+'35': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 3, type: 2pt}
+'36': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'37': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'38': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'39': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 4, type: 2pt}
+'40': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 5, type: 2pt}
+'41': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 5, type: 2pt}
+'42': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 5, type: 2pt}
+'43': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 5, type: 2pt}
+'44': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'45': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'46': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'47': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 6, type: 2pt}
+'48': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 7, type: 2pt}
+'49': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 7, type: 2pt}
+'50': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 7, type: 2pt}
+'51': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 7, type: 2pt}
+'52': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'53': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'54': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'55': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 30, tmin: 8, type: 2pt}
+'56': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 2, type: 2pt}
+'57': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 2, type: 2pt}
+'58': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 2, type: 2pt}
+'59': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 2, type: 2pt}
+'60': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 3, type: 2pt}
+'61': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 3, type: 2pt}
+'62': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 3, type: 2pt}
+'63': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 3, type: 2pt}
+'64': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 4, type: 2pt}
+'65': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 4, type: 2pt}
+'66': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 4, type: 2pt}
+'67': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 4, type: 2pt}
+'68': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 5, type: 2pt}
+'69': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 5, type: 2pt}
+'70': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 5, type: 2pt}
+'71': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 5, type: 2pt}
+'72': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'73': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'74': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'75': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 6, type: 2pt}
+'76': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 7, type: 2pt}
+'77': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 7, type: 2pt}
+'78': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 7, type: 2pt}
+'79': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 7, type: 2pt}
+'80': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 8, type: 2pt}
+'81': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 8, type: 2pt}
+'82': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 8, type: 2pt}
+'83': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 36, tmin: 8, type: 2pt}
+'84': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 2, type: 2pt}
+'85': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 2, type: 2pt}
+'86': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 2, type: 2pt}
+'87': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 2, type: 2pt}
+'88': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 3, type: 2pt}
+'89': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 3, type: 2pt}
+'90': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 3, type: 2pt}
+'91': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 3, type: 2pt}
+'92': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 4, type: 2pt}
+'93': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 4, type: 2pt}
+'94': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 4, type: 2pt}
+'95': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 4, type: 2pt}
+'96': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 5, type: 2pt}
+'97': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 5, type: 2pt}
+'98': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 5, type: 2pt}
+'99': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 5, type: 2pt}
+'100': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 6, type: 2pt}
+'101': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 6, type: 2pt}
+'102': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 6, type: 2pt}
+'103': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 6, type: 2pt}
+'104': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 7, type: 2pt}
+'105': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 7, type: 2pt}
+'106': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 7, type: 2pt}
+'107': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 7, type: 2pt}
+'108': {dofit: true, name: Dmom0, nexp: 1, noxp: 1, p0file: null, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 8, type: 2pt}
+'109': {dofit: true, name: Dmom0, nexp: 2, noxp: 2, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 8, type: 2pt}
+'110': {dofit: true, name: Dmom0, nexp: 3, noxp: 3, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 8, type: 2pt}
+'111': {dofit: true, name: Dmom0, nexp: 4, noxp: 4, p0file: p0file.tmp, priorfile: priors/a06m0008/Dmom0.prior,
+  savep0: p0file.tmp, tmax: 42, tmin: 8, type: 2pt}
+fits: 112

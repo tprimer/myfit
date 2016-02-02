@@ -1,0 +1,12 @@
+datafile:     ./corrdata/a09m0012b1.dat
+NT:           96
+NX:           64
+m_l:          0.0012795
+m_s:          0.0363
+m_c:          0.432
+Text:         [23,27,32,33,34]
+ncon:         905
+pi2twist:     4.8704
+k2twist:      4.55303
+pi0:          0.05715
+pi0_err:      0.000049
